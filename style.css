@@ -501,11 +501,16 @@ body.nature-on .nature-section {
     border-radius: 50%;
     box-shadow: 0 0 0 20px rgba(255,255,255,.1);
 }
-img {
+img.front {
 	position: fixed;
-	opacity: 80%;
-	right: 4%;
-	up: 6%;
+	
+	right: 8%;
+	
 
 	
+}
+img.back {
+	position: fixed;
+	left: 4%;
+
 }
