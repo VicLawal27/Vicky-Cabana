@@ -4,7 +4,7 @@
 body{
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 20px;
 	line-height: 1.6;
 	color: #fff;
 	background-color: #1f2029;
@@ -100,7 +100,7 @@ a:hover {
 	transform-origin: center top;
 }
 .hero-section h1{
-    color: rgb(18, 114, 121);
+    color: rgb(18, 136, 145);
 	font-size: 5vw;
 	line-height: 1;
 	font-weight: 900;
@@ -266,9 +266,9 @@ body.about-on .about-section {
 	z-index: 1;
 }
 .about-section img {
-    width: 100px;
-	height: 100px;
-	border-radius: 4px;
+    width: 180px;
+	height: 170px;
+	border-radius: 10px;
 	display: block;
 	margin: 0 auto;
 	box-shadow: 0 0 20px rgba(0,0,0,0.15);
