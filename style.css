@@ -276,8 +276,8 @@ body.about-on .about-section {
 .about-section p span {
     font-family: 'Dancing Script', cursive;
 	letter-spacing: 1px;
-	color: #045471;
-	font-size: 25px;
+	color: #046486;
+	font-size: 30px;
 	font-weight: 400;
 }
 
@@ -369,7 +369,7 @@ body.contact-on .contact-section {
 .contact-section .social a{
     margin-left: 8px;
 	margin-right: 8px;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 1px;
 	color: #38b5cb;
