@@ -1,4 +1,3 @@
-/*--------- created-by-varun ---------*/
 
 (function($) { "use strict";
 
