@@ -4,7 +4,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.6;
   color: #405699;
   background-color: #B7EDF3;
@@ -22,11 +22,11 @@ a:hover {
 }
 ::selection {
   color: #c4c3ca;
-  background-color: #000;
+  background-color: #405699;
 }
 ::-moz-selection {
   color: #c4c3ca;
-  background-color: #000;
+  background-color: #405699;
 }
 
 /* #Cursor
@@ -506,11 +506,12 @@ body.nature-on .nature-section {
 
 img.front {
   position: fixed;
-  right: 33%;
-  bottom: 63%;
+  right: 0%;
+  bottom: 0%;
+  top: 85%;
 }
-img.back {
+/* img.back {
   position: fixed;
   left: 33%;
   bottom: 63%;
-}
+} */
