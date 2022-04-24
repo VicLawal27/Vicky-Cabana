@@ -1,5 +1,3 @@
-/*--------- created-by-varun ---------*/
-
 (function($) { "use strict";
 
     document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
@@ -68,6 +66,14 @@
 	});
 	$(".nature-close").on('click', function () {
 		$("body").removeClass("nature-on");
+	});
+
+
+	$(".forest").on('click', function () {
+		$("body").addClass("forest-on");
+	});
+	$(".forest-close").on('click', function () {
+		$("body").removeClass("forest-on");
 	});
 
 	
