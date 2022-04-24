@@ -69,5 +69,13 @@
 		$("body").removeClass("nature-on");
 	});
 
+
+	$(".forest").on('click', function () {
+		$("body").addClass("forest-on");
+	});
+	$(".forest-close").on('click', function () {
+		$("body").removeClass("forest-on");
+	});
+
 	
 })(jQuery);
