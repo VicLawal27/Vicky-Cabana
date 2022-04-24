@@ -102,18 +102,25 @@ a:hover {
   transform-origin: center top;
 }
 .hero-section h1 {
-  color: rgb(18, 136, 145);
+  color: #128891;
   font-size: 5vw;
-  line-height: 1;
-  font-weight: 900;
+  line-height: 3;
+  font-weight: 800;
+  position: absolute;
+  left: 75px;
+  bottom: 0%;
 }
 .hero-section .dancing {
   font-family: "Dancing Script", cursive;
-  letter-spacing: 1px;
-  color: #405699;
-  font-size: 26px;
-  line-height: 1;
+  letter-spacing: 2px;
+  color: #128891;
+  font-size: 41px;
+  line-height: 0;
   font-weight: 700;
+  position: absolute;
+  bottom: 0%;
+  top: 40%;
+  left: 325px;
 }
 @media screen and (max-width: 580px) {
   .hero-section .dancing {
@@ -121,10 +128,10 @@ a:hover {
   }
 }
 .hero-section p {
-  font-size: 15px;
+  font-size: 21px;
   line-height: 20px;
   font-weight: 500;
-  color: #405699;
+  color: #128891;
   letter-spacing: 1px;
 }
 .hero-section p span {
@@ -134,6 +141,8 @@ a:hover {
   display: inline-block;
   cursor: pointer;
   padding-bottom: 35px;
+  top: 100px;
+  left: 567px;
 }
 .hero-section p span:before {
   position: absolute;
@@ -288,7 +297,7 @@ body.about-on .about-section {
   font-size: 17px;
   line-height: 20px;
   font-weight: 700;
-  color: #405699;
+  color: #128891;
   letter-spacing: 2px;
   top: 50%;
   right: 40px;
