@@ -18,8 +18,8 @@ https://epw80.github.io/Cabana-Joe/
 
 ## Mock-up
 
-![Book-Search: Erik Williams](/assets/images/Cabana.jpg)
-![Book-Search: Erik Williams](/assets/images/Cabana2.jpg)
+<!-- ![Book-Search: Erik Williams](/assets/images/Cabana.jpg)
+![Book-Search: Erik Williams](/assets/images/Cabana2.jpg) -->
 
 ## Challenges
 
