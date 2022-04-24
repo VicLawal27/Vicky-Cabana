@@ -499,19 +499,20 @@ body.nature-on .nature-section {
   transition-timing-function: ease-out;
 }
 .link-to-portfolio:hover {
-  opacity: 0.8;
-  border-radius: 50%;
-  box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
+    border-radius: 50%;
+    box-shadow: 0 0 0 20px rgba(255,255,255,.1);
 }
-
 img.front {
-  position: fixed;
-  right: 0%;
-  bottom: 0%;
-  top: 85%;
+	position: fixed;
+	
+	right: 8%;
+	
+
+	
 }
-/* img.back {
-  position: fixed;
-  left: 33%;
-  bottom: 63%;
-} */
+img.back {
+	position: fixed;
+	left: 4%;
+
+}
