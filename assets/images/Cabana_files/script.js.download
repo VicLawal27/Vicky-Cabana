@@ -7,19 +7,16 @@
 		e.style.left = n.clientX + "px", 
 		e.style.top = n.clientY + "px", 
 		i.style.left = n.clientX + "px", 
-		i.style.top = n.clientY + "px",
-		j.style.left = n.clientX + "px", 
-		j.style.top = n.clientY + "px"
+		i.style.top = n.clientY + "px"
     });
     var t = document.getElementById("cursor"),
         e = document.getElementById("cursor2"),
-        i = document.getElementById("cursor3"),
-		j = document.getElementById("cursor4")
+        i = document.getElementById("cursor3");
     function n(t) {
-        e.classList.add("hover"), i.classList.add("hover"), j.classList.add("hover")
+        e.classList.add("hover"), i.classList.add("hover")
     }
     function s(t) {
-        e.classList.remove("hover"), i.classList.remove("hover"), j.classList.remove("hover")
+        e.classList.remove("hover"), i.classList.remove("hover")
     }
     s();
     for (var r = document.querySelectorAll(".hover-target"), a = r.length - 1; a >= 0; a--) {
@@ -70,14 +67,6 @@
 	});
 	$(".nature-close").on('click', function () {
 		$("body").removeClass("nature-on");
-	});
-
-
-	$(".forest").on('click', function () {
-		$("body").addClass("forest-on");
-	});
-	$(".forest-close").on('click', function () {
-		$("body").removeClass("forest-on");
 	});
 
 	
