@@ -34,12 +34,7 @@ a:hover {
 
 .cursor,
 .cursor2,
-<<<<<<< HEAD
 .cursor3 {
-=======
-.cursor3,
-.cursor4 {
->>>>>>> c406ddfbeb069f5ef58a074d30f128de2fe21d92
   position: fixed;
   border-radius: 50%;
   transform: translateX(-50%) translateY(-50%);
@@ -57,12 +52,8 @@ a:hover {
   z-index: 99999;
 }
 .cursor2,
-<<<<<<< HEAD
-.cursor3 {
-=======
 .cursor3,
 .cursor4 {
->>>>>>> c406ddfbeb069f5ef58a074d30f128de2fe21d92
   height: 36px;
   width: 36px;
   z-index: 99998;
@@ -70,12 +61,8 @@ a:hover {
   transition: all 0.3s ease-out;
 }
 .cursor2.hover,
-<<<<<<< HEAD
-.cursor3.hover {
-=======
 .cursor3.hover,
 .cursor4.hover {
->>>>>>> c406ddfbeb069f5ef58a074d30f128de2fe21d92
   -webkit-transform: scale(2) translateX(-25%) translateY(-25%);
   transform: scale(2) translateX(-25%) translateY(-25%);
   border: none;
@@ -91,12 +78,8 @@ a:hover {
 @media screen and (max-width: 1200px) {
   .cursor,
   .cursor2,
-<<<<<<< HEAD
-  .cursor3 {
-=======
   .cursor3,
   .cursor4 {
->>>>>>> c406ddfbeb069f5ef58a074d30f128de2fe21d92
     display: none;
   }
 }
@@ -218,11 +201,7 @@ body.forest-on .hero-section {
 }
 .about-text {
   position: absolute;
-<<<<<<< HEAD
-  font-size: 17px;
-=======
   font-size: 25px;
->>>>>>> c406ddfbeb069f5ef58a074d30f128de2fe21d92
   line-height: 20px;
   font-weight: 700;
   color: rgb(47, 204, 222);
@@ -323,11 +302,7 @@ body.about-on .about-section {
 
 .contact-text {
   position: absolute;
-<<<<<<< HEAD
-  font-size: 17px;
-=======
   font-size: 25px;
->>>>>>> c406ddfbeb069f5ef58a074d30f128de2fe21d92
   line-height: 20px;
   font-weight: 700;
   color: #128891;
@@ -451,11 +426,7 @@ body.contact-on .contact-section {
 .travel-close,
 .wildlife-close,
 .nature-close,
-<<<<<<< HEAD
-.forest-section {
-=======
 .forest-close {
->>>>>>> c406ddfbeb069f5ef58a074d30f128de2fe21d92
   position: absolute;
   top: 20px;
   right: 20px;
@@ -526,10 +497,7 @@ body.forest-on .forest-section {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 1px;
-<<<<<<< HEAD
   background-color: rgb(240, 231, 215);
-=======
->>>>>>> c406ddfbeb069f5ef58a074d30f128de2fe21d92
 }
 .travel-section p span,
 .wildlife-section p span,
@@ -538,13 +506,9 @@ body.forest-on .forest-section {
   font-size: 20px;
   line-height: 1.3;
   font-weight: 700;
-<<<<<<< HEAD
   color: #000000;
   
  
-=======
-  color: #0c595e;
->>>>>>> c406ddfbeb069f5ef58a074d30f128de2fe21d92
 }
 /* #Link to page
 ================================================== */

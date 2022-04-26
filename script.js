@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> c406ddfbeb069f5ef58a074d30f128de2fe21d92
 (function($) { "use strict";
 
     document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
