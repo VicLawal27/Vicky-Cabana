@@ -429,7 +429,7 @@ body.contact-on .contact-section {
   font-size: 40px;
   font-weight: 800;
   position: absolute;
-  bottom: 370px;
+  bottom: 410px;
   left: 605px;
 }
 
@@ -439,8 +439,10 @@ body.contact-on .contact-section {
   font-size: 19px;
   font-weight: 400;
   position: absolute;
-  bottom: 289px;
-  /* left: 605px; */
+  display: inline-block;
+  width: 28%;
+  bottom: 283px;
+  left: 517px; 
   text-align: center;
   text-shadow: 3px 1px #405699;
 }
