@@ -91,3 +91,9 @@ input[type="submit"] {
 #success {
   color: seagreen;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+}
