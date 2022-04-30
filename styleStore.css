@@ -13,12 +13,20 @@
     box-sizing: border-box;
     font-family: Raleway;
     color: rgb(14, 230, 245);
+    
 }
 
 html, body {
     margin: 0;
     padding: 0;
     min-height: 100%;
+    
+}
+html, body, main {
+    
+    background-size: cover;
+    background-color: rgb(168, 198, 203);
+    
 }
 
 .nav ul {
@@ -84,7 +92,7 @@ html, body {
 .section-header {
     font-family: "Metal Mania";
     font-weight: normal;
-    color: rgb(0, 177, 216);
+    color: rgb(235, 246, 249);
     text-align: center;
     font-size: 2.5em;
 }
@@ -212,12 +220,33 @@ html, body {
     text-align: center;
     font-weight: bold;
     font-size: 1.5em;
-    color: rgb(10, 186, 240);
+    color: rgb(255, 255, 255);
     margin-bottom: 15px;
+}
+
+.heater1 {
+    position: relative;
+    right: 50px;
+    left: 91px;
 }
 
 .shop-item-image {
     height: 250px;
+    position: relative;
+    
+}
+.base {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 247px;
+    top: 4px;
+}
+
+.heater {
+    position: relative;
+    left: 96px;
+    top: 4px;
 }
 
 .shop-item-details {
