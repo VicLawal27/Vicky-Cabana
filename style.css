@@ -78,9 +78,11 @@ a:hover {
 
 .header {
   position: absolute;
-  top: 0%;
+  top: 0%; 
+  font-weight: 600;
   left: 40%;
   color: #fff
+ 
 }
 
 .header2 {
@@ -104,7 +106,8 @@ a:hover {
 
 .hero-section {
   position: relative; 
-  width: 103%;
+  width: 105%;
+  bottom: 8px;
   right: 14px;
   display: block; 
   overflow: hidden;
@@ -195,6 +198,7 @@ a {
 }
 
 body.about-on .hero-section {
+  
   transform: scale(0.75);
   -webkit-transition-delay: 0ms;
   transition-delay: 0ms;
@@ -232,7 +236,7 @@ body.forest-on .hero-section {
   color: #000;
   letter-spacing: 2px;
   top: 50%;
-  left: 40px;
+  left: 49px;
   cursor: pointer;
   z-index: 2;
   -webkit-writing-mode: vertical-lr;
@@ -327,7 +331,10 @@ body.about-on .about-section {
   font-weight: 400;
 }
 
+
+
 .contact-text {
+  
   position: absolute;
   font-size: 29px;
   line-height: 20px;
@@ -335,7 +342,7 @@ body.about-on .about-section {
   color: #000;
   letter-spacing: 2px;
   top: 50%;
-  right: 59px;
+  right: 104px;
   cursor: pointer;
   z-index: 2;
   -webkit-writing-mode: vertical-lr;
@@ -367,15 +374,17 @@ body.about-on .about-section {
   left: -30px;
 }
 .contact-section {
+  
+  
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   display: block;
-  /* overflow: hidden; */
+  overflow: hidden;
   height: 100vh;
   /* background-color: #b7edf3; */
-  background-image: url("./assets/images/watercabana.jpeg");
+  background-image: url("./assets/images/water-villas.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -390,6 +399,7 @@ body.contact-on .contact-section {
   transition-delay: 400ms;
 }
 .contact-close {
+ 
   position: absolute;
   top: 20px;
   right: 20px;
@@ -410,21 +420,24 @@ body.contact-on .contact-section {
   transform: rotate(90deg);
 }
 .contact-section a {
+  
   margin: 0 auto;
   font-size: 37px;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: 1px;
   color: rgb(15 197 211);
   display: inline-block;
   position: relative;
   left: 40%;
-  bottom: 139px;
+  bottom: 148px;
 }
 .contact-section .social a {
+  
   font-size: 22px;
-  font-weight: 700;
+  /* font-weight: 700; */
   letter-spacing: 7px;
-
+  font-weight: 700;
+  text-shadow: 0px 1px #307;
   left: 578px;
   color: #fff;
 }
@@ -433,13 +446,33 @@ body.contact-on .contact-section {
   position: relative;
   right: 46px;
   color: #fff;
+  font-weight: 700;
+  text-shadow: 0px 1px #307;
+}
+
+.daysOpen {
+  position: relative;
+  top: 73%;
+  right: 5%;
+}
+
+.font {
+  position: relative;
+  color: rgb(0, 0, 0);
+  right: 60px;
+  font-size: 19px;
+  width: 100%;
+  border: 1px solid rgb(0 0 0);
+  background-color: rgb(255 255 255);
+  opacity: 0.9
+
 }
 
 .getintouch {
   color: rgb(15 197 211);
   font-family: "Poppins", sans-serif;
   font-size: 40px;
-  font-weight: 800;
+  font-weight: 700;
   position: absolute;
   bottom: 410px;
   left: 605px;
@@ -449,20 +482,22 @@ body.contact-on .contact-section {
   color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 19px;
-  font-weight: 400;
+  font-weight: 700;
   position: absolute;
   display: inline-block;
   width: 28%;
   bottom: 283px;
   left: 517px; 
   text-align: center;
-  text-shadow: 3px 1px #405699;
+  text-shadow: 1px 1px #4e63ba6b;
 }
 
 .hours1 {
   position: relative;
-  left: 15%;
+  left: 10%;
   color: #fff;
+  font-weight: 700;
+  text-shadow: 0px 1px #307;
 }
 
 @media screen and (max-width: 580px) {
